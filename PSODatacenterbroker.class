@@ -1,0 +1,17 @@
+package PSO;
+
+public class PSODatacenterBroker extends org.cloudbus.cloudsim.DatacenterBroker {
+    private double[] mapping;
+
+    PSODatacenterBroker(java.lang.String name) throws java.lang.Exception {}
+
+    public void setMapping(double[] mapping) { }
+
+    private java.util.List<org.cloudbus.cloudsim.Cloudlet> assignCloudletsToVms(java.util.List<org.cloudbus.cloudsim.Cloudlet> cloudlist) { }
+
+    protected void submitCloudlets() { }
+
+    protected void processResourceCharacteristics(org.cloudbus.cloudsim.core.SimEvent ev) { }
+
+    protected void distributeRequestsForNewVmsAcrossDatacenters() { }
+}
