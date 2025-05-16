@@ -1,0 +1,9 @@
+
+
+package geneticalgo;
+
+public class GADatacenterCreator {
+    public GADatacenterCreator() { }
+
+    public static org.cloudbus.cloudsim.Datacenter createDatacenter(java.lang.String name) { }
+}
