@@ -1,0 +1,14 @@
+package PSO;
+
+public class SchedulerFitnessFunction extends net.sourceforge.jswarm_pso.FitnessFunction {
+    private static double[][] execMatrix;
+    private static double[][] commMatrix;
+
+    SchedulerFitnessFunction() {  }
+
+    public double evaluate(double[] position) { }
+
+    private double calcTotalTime(double[] position) { }
+
+    public double calcMakespan(double[] position) { }
+}
