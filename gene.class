@@ -1,0 +1,16 @@
+package geneticalgo;
+
+public class Gene {
+    private org.cloudbus.cloudsim.Cloudlet task;
+    private org.cloudbus.cloudsim.Vm vm;
+
+    public Gene(org.cloudbus.cloudsim.Cloudlet cl, org.cloudbus.cloudsim.Vm v) {}
+
+    public org.cloudbus.cloudsim.Cloudlet getCloudletFromGene() { }
+
+    public org.cloudbus.cloudsim.Vm getVmFromGene() { }
+
+    public void setCloudletForGene(org.cloudbus.cloudsim.Cloudlet cl) { }
+
+    public void setVmForGene(org.cloudbus.cloudsim.Vm vm) { }
+}
