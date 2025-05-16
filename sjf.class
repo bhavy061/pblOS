@@ -1,0 +1,23 @@
+package SJF;
+
+public class SJF_Scheduler {
+    private static java.util.List<org.cloudbus.cloudsim.Cloudlet> cloudletList;
+    private static java.util.List<org.cloudbus.cloudsim.Vm> vmList;
+    private static org.cloudbus.cloudsim.Datacenter[] datacenter;
+    private static double[][] commMatrix;
+    private static double[][] execMatrix;
+
+    public SJF_Scheduler() {}
+
+    private static java.util.List<org.cloudbus.cloudsim.Vm> createVM(int userId, int vms) { }
+
+    private static java.util.List<org.cloudbus.cloudsim.Cloudlet> createCloudlet(int userId, int cloudlets, int idShift) {}
+
+    public static void main(java.lang.String[] args) {  }
+
+    private static SJF.SJF_DatacenterBroker createBroker(java.lang.String name) throws java.lang.Exception {  }
+
+    private static void printCloudletList(java.util.List<org.cloudbus.cloudsim.Cloudlet> list) { }
+
+    private static double calcMakespan(java.util.List<org.cloudbus.cloudsim.Cloudlet> list) { }
+}
