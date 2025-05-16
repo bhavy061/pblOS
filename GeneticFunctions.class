@@ -1,0 +1,13 @@
+package geneticalgo;
+
+public class GeneticFunctions {
+    public GeneticFunctions()
+
+    public java.util.ArrayList<geneticalgo.Chromosomes> initialisePopulation(int numCloudlets, int numVms, java.util.ArrayList<org.cloudbus.cloudsim.Vm> sortedVmList, java.util.List<org.cloudbus.cloudsim.Cloudlet> sortedCloudletList) { /* compiled code */ }
+
+    public double[] calculateFitness(java.util.ArrayList<geneticalgo.Chromosomes> initialPopulation, int firstFitIndex, int secondFitIndex, double time, int numCloudlets, int populationSize) { /* compiled code */ }
+
+    public void selectionAndCrossOver(java.util.ArrayList<geneticalgo.Chromosomes> initialPopulation, int firstFitIndex, int secondFitIndex, int numCloudlets) { /* compiled code */ }
+
+    public void mutation(java.util.Random rand, java.util.ArrayList<geneticalgo.Chromosomes> initialPopulation, int populationSize, java.util.ArrayList<org.cloudbus.cloudsim.Vm> sortedVmList, int numCloudlets) { /* compiled code */ }
+}
